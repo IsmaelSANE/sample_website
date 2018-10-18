@@ -5,10 +5,10 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color: blue;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none; color: blue;">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -39,14 +39,14 @@
         <th>Purpose</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
-        <td>include a heading (levels 1&ndash;6)</td>
+        <td style="padding: 20px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 20px;">headings</td>
+        <td style="padding: 20px;">include a heading (levels 1&ndash;6)</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>paragraph</td>
-        <td>include a paragraph of text</td>
+        <td style="padding: 20px;"><code>p</code></td>
+        <td style="padding: 20px;">paragraph</td>
+        <td style="padding: 20px;">include a paragraph of text</td>
       </tr>
       <tr>
         <td><code>table</code></td>
@@ -70,23 +70,58 @@
       </tr>
       <tr>
         <td><code>header</code></td>
-        <td>abstract semantic tag</td>
+        <td>header</td>
         <td>label the top-part of the page</td>
       </tr>
       <tr>
         <td><code>div</code></td>
         <td>division</td>
-        <td>sets the page divisions apart</td>
+        <td>define block-level section in documen</td>
       </tr>
       <tr>
         <td><code>ol</code></td>
         <td>ordered list</td>
-        <td>make a list in rank-order</td>
+        <td>list elements in numerical order</td>
       </tr>
       <tr>
         <td><code>ul</code></td>
         <td>unordered list</td>
-        <td>make a random list</td>
+        <td>list elements whose order doesn’t matter</td>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>page container</td>
+        <td>contain the head tag & the body tag</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>header container</td>
+        <td>defines metadata</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body container</td>
+        <td>what gets displayed to the browser</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>Page Title</td>
+        <td>defines the title of the page</td>
+      </tr>
+      <tr>
+        <td><code>h1–h6</code></td>
+        <td>headings</td>
+        <td>include a heading (levels 1–6)</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>break</td>
+        <td>enter line break</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>block quotation</td>
+        <td>show formatted quotation</td>
       </tr>
     </table>
        <h2>Inline Elements</h2>
@@ -154,9 +189,16 @@
       <tr>
         <td><code>li</code></td>
         <td>list element</td>
-        <td>sets element for ordered & unordered lists</td>
-        <td><code>&lt;ol&gt;&lt;li&gt;Vengeful whale&lt;/li&gt;&lt;ol&gt;</code><code><br>&lt;ul&gt;&lt;li&gt;Mad sea captains are fun&lt;/li&gt;&lt;ul&gt;</code></td>
+        <td>include a list item (ordered or unordered)</td>
+        <td><code>&lt;ol&gt;&lt;li&gt;Vengeful whale&lt;/li&gt;&lt;/ol&gt;</code><code><br>&lt;ul&gt;&lt;li&gt;Mad sea captains are fun&lt;/li&gt;&lt;ul&gt;</code></td>
         <td><ol><li>Vengeful whale</li></ol><ul><li>Mad sea captains are fun</li></ul></td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>metadata</td>
+        <td>provides metadata about the HTML document</td>
+        <td><code>&lt;meta charset="utf-8"&gt;</code></td>
+        <td><em>Metadata isn't displayed on the page, but is machine parsable.</em></td>
       </tr>
     </table>
 
